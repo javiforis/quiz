@@ -1,0 +1,95 @@
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face{
+  font-family: Hobbiton;
+  src: url(./tipografia/hobbitonbrushhand.ttf);
+}
+
+@font-face{
+  font-family: Tolkien;
+  src: url(./tipografia/tolkien.TTF);
+}
+
+html {
+    background-image: url(/imagenes/fondo.jpeg);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+  }
+  
+  header {
+    font-family: Hobbiton;
+    text-align: center;
+    height: 12vh;
+    background-repeat: repeat-x;
+    background-size: 25vw;
+    background-position: 0em -1em;
+  }
+  header a.special {
+    font-family: Hobbiton;
+    color: #fff;
+    font-size: 10vh;
+    text-decoration: none;
+    position: relative;
+    top: 1px;
+  }
+  
+  main div#onBoard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Tolkien;
+    padding: 10vh 8vw;
+    font-size: 30px;
+  }
+
+  main a#button {
+    font-family: Tolkien;
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    margin: 5vh 10vw;
+    padding: 1%;
+    border-radius: 5px;
+    font-size: 6vh;
+  }
+  main a#button1 {
+    font-family: Tolkien;
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    margin: 5vh 10vw;
+    padding: 1%;
+    border-radius: 5px;
+    font-size: 6vh;
+  }
+  main a:hover {
+    background-color: #996B54;
+    color: white;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main div#onBoard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Tolkien;
+    font-size: 3.5vh;
+    width: 90vw;
+    text-align: left;
+    padding: 2%;
+    margin: 10vh 0 2vh 0;
+    border-radius: 10px;
+    color: rgb(56, 56, 56);
+  }
+  
